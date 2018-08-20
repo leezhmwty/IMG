@@ -23,6 +23,7 @@ public class DeamonThread {
 
         System.out.println(Thread.currentThread() + " End");
         TimeUnit.SECONDS.sleep(1);
+
         /*
          * subThread.setDaemon(true)时，程序最终打印 ->
          * Thread[main,5,main] End
