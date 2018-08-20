@@ -37,6 +37,7 @@ public class Priority {
         for (Job job : jobs) {
             System.out.println("Job priority : " + job.priority + " Count: " + job.jobCount);
         }
+
     }
 
     static class Job implements Runnable {
